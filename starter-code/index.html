@@ -11,10 +11,9 @@
   <title>npm</title>
 </head>
 <body>
-  <!-- Your code goes here -->
-  <section id="navigator">
-    <nav class="top-left">
-      <div>
+  
+  <nav>
+      <div class="top-left">
         <a>♥︎</a>
         <span>Noiseless Praying Mantis</span>
       </div>
@@ -27,29 +26,39 @@
           <li><a href="#">support</a></li>
         </ul>
       </div>
-    </nav>
-  </section>
-  <section id="intro">
-    <h1>Build Amazing Things</h1>
-    <p>npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.</p>
-    <div>
-      <a href="#">Sign up</a>
+  </nav>
+  <header id="intro" class="text-white">
+    <div id="search">
+      <img id="logo" src="images/npm-logo.png">
+      <input id="search-bar" type="text" placeholder="find packages">
+    </div>
+    <div id="intro-text">
+      <h1>Build Amazing Things</h1>
+      <p>npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.</p>
+      <div>
+        <a href="#">Sign up</a>
+      </div>
+    </div>
+  </header>
+  <section id="orgs" class="text-white">
+    <div class="center">
+      <img id="collab" src="images/collaboration.svg">
+      <div id="orgs-info">
+        <h1>npm Orgs is powerful collaboration - for free</h1>
+        <ul>
+          <li>Encourage code discovery and re-use within teams</li>
+          <li>Publish and control access to your own namespace</li>
+          <li>Manage public and private code with the same workflow</li>
+        </ul>
+        <div>
+          <a href="#">Sign up for Orgs</a>
+        </div>
+        <p>or, <a href="#">Learn more about Orgs</a></p>
+      </div>
+      
     </div>
   </section>
-  <section id="orgs">
-    <img src="images/collaboration.svg">
-    <h1>npm Orgs is powerful collaboration - for free</h1>
-    <ul>
-      <li>Encourage code discovery and re-use within teams</li>
-      <li>Publish and control access to your own namespace</li>
-      <li>Manage public and private code with the same workflow</li>
-    </ul>
-    <div>
-      <a href="#">Sign up for Orgs</a>
-    </div>
-    <p>or, <a href="#">Learn more about Orgs</a></p>
-  </section>
-  <section id="install">
+  <section id="install" class="text-white">
     <h1>What is npm?</h1>
     <p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
     <div>
@@ -60,13 +69,19 @@
     <h1>What can you make with 800,000 building blocks?</h1>
     <p>The npm registry hosts the world’s largest collection of free, reusable code.</p>
     <div id="find">
+      <img src="images/binoculars.svg">
       <h3>Find</h3>
+      <p>Libraries like jQuery, Bootstrap, React, and Angular, and components from frameworks such as Ember.</p>
     </div>
     <div id="discover">
+      <img src="images/mountain-flag.svg">
       <h3>Discover</h3>
+      <p>Packages for mobile, IoT, front end, back end, robotics… everything you need to start building amazing things.</p>
     </div>
     <div id="build">
+      <img src="images/backpack.svg">
       <h3>Build</h3>
+      <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
     </div>
   </section>
 
