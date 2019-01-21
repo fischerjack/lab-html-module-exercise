@@ -19,11 +19,6 @@ nav a{
   text-decoration: none;
 }
 
-.center{
-  width: 60%;
-  margin: 0 auto;
-}
-
 .top-left{
   float: left;
   
@@ -51,6 +46,36 @@ nav a{
   
 }
 
+
+#find-discover-build div{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#find-discover-build div div{
+  width: 33%;
+  float:left;
+}
+#find-discover-build div img{
+  display: block;
+  margin: 0 auto;
+}
+
+#find-discover-build h1{
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+#find-discover-build h3{
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+#find-discover-build p{
+  color: rgb(135, 145, 156);
+  text-align: center;
+}
+
 #install{
   background-image: url(images/forklift.svg);
   background-size: cover;
@@ -67,14 +92,51 @@ nav a{
   width: 30%;
   margin: 0 60% 0 20%;
 }
-
+#intro-text a{
+  color: white;
+  text-decoration: none;
+}
 #search{
   height: 50px;
+  display: flex;
 }
-
+#search > a{
+  border: 1px solid white;
+  border-left: none;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#search > a > i{
+  padding-top: 15px;
+}
+#search img{
+  height: 40px;
+  padding: 5px 10px;
+  width: auto;
+}
+#search input{
+  height: 40px;
+  flex: auto;
+  margin-top: 5px;
+  border: 1px solid white;
+  
+}
+#search span{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+#search > span > a{
+  color: white;
+  text-decoration: none;
+}
 #search-bar{
   background-color: rgb(31, 82, 111);
+  width: 60%;
+  
 }
+
 
 #logo{
   height: 40px;
@@ -86,4 +148,8 @@ nav a{
 }
 #orgs-info{
   float: right;
+}
+#orgs-info a{
+  color: white;
+  text-decoration: none;
 }

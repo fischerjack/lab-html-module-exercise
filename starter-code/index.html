@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
+  <!--FontAwesome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
+￼
+  <!--Custom Stylesheet-->
   <link rel="stylesheet" href="style.css" type="text/css">
 
   <title>npm</title>
@@ -30,7 +34,10 @@
   <header id="intro" class="text-white">
     <div id="search">
       <img id="logo" src="images/npm-logo.png">
-      <input id="search-bar" type="text" placeholder="find packages">
+      <input id="search-bar" type="text" placeholder="  find packages">
+      <a href="#"><i class="fas fa-search text-white fa-lg"></i></a>
+      <span><a href="#">sign up</a> or <a href="#">log in</a></span>
+      <img src="images/bear-logo.png">
     </div>
     <div id="intro-text">
       <h1>Build Amazing Things</h1>
@@ -53,7 +60,7 @@
         <div>
           <a href="#">Sign up for Orgs</a>
         </div>
-        <p>or, <a href="#">Learn more about Orgs</a></p>
+        <p>or, <strong><a href="#">Learn more about Orgs</a></strong></p>
       </div>
       
     </div>
@@ -66,23 +73,30 @@
     </div>
   </section>
   <section id="find-discover-build">
-    <h1>What can you make with 800,000 building blocks?</h1>
-    <p>The npm registry hosts the world’s largest collection of free, reusable code.</p>
-    <div id="find">
-      <img src="images/binoculars.svg">
-      <h3>Find</h3>
-      <p>Libraries like jQuery, Bootstrap, React, and Angular, and components from frameworks such as Ember.</p>
+    
+      <div>
+        <h1>What can you make with 800,000 building blocks?</h1>
+        <p>The npm registry hosts the world’s largest collection of free, reusable code.</p>
+      </div>
+    
+    <div>
+      <div id="find">
+        <img src="images/binoculars.svg">
+        <h3>Find</h3>
+        <p>Libraries like jQuery, Bootstrap, React, and Angular, and components from frameworks such as Ember.</p>
+      </div>
+      <div id="discover">
+        <img src="images/mountain-flag.svg">
+        <h3>Discover</h3>
+        <p>Packages for mobile, IoT, front end, back end, robotics… everything you need to start building amazing things.</p>
+      </div>
+      <div id="build">
+        <img src="images/backpack.svg">
+        <h3>Build</h3>
+        <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+      </div>
     </div>
-    <div id="discover">
-      <img src="images/mountain-flag.svg">
-      <h3>Discover</h3>
-      <p>Packages for mobile, IoT, front end, back end, robotics… everything you need to start building amazing things.</p>
-    </div>
-    <div id="build">
-      <img src="images/backpack.svg">
-      <h3>Build</h3>
-      <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
-    </div>
+    
   </section>
 
 </body>
