@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+}
+
+header{
+  background-image: url(images/city-scape.svg);
+  background-position: right;
+}
+
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.center{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.top-left{
+  float: left;
+  
+}
+
+.top-links{
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.text-white{
+  color: white;
+}
+
+#collab{
+  width: 30%;
+  height: auto;
+  
+}
+
+#install{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 300px;
+
+}
+#intro{
+  background-color: rgb(32, 101, 136);
+  height: 300px;
+
+}
+
+#intro-text{
+  width: 30%;
+  margin: 0 60% 0 20%;
+}
+
+#search{
+  height: 50px;
+}
+
+#search-bar{
+  background-color: rgb(31, 82, 111);
+}
+
+#logo{
+  height: 40px;
+  width: auto;
+}
+#orgs{
+  background-color: rgb(39, 53, 71);
+  height: 400px;
+}
+#orgs-info{
+  float: right;
+}
